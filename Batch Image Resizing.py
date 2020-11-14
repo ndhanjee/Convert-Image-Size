@@ -13,5 +13,5 @@ for image in images:
 
     cv2.imwrite("resized_"+image, resized_img) #command that writes the image in a new file
 
-    cv2.waitKey(2000) #closes window at a certain time (in ms) specified by the user, 0-> closes widow when user presses any button
+    cv2.waitKey(2000) #closes window at a certain time (in ms) specified by the user, Type 0 to close window when user presses any button
     cv2.destroyAllWindows() #method that closes all windows
